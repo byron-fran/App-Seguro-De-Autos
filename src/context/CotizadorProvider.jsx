@@ -26,7 +26,7 @@ const CotizarProvider  =({children}) => {
         let resultado = 2000
         //Obtenen diferencia de años
         const diferencia = restarYear(datos.year);
-        console.log(diferencia);
+       
         //15%
 
         resultado -= ((diferencia * 3)) * resultado / 100
